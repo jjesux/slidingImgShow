@@ -1,0 +1,27 @@
+10/04/2021 - 12:05 am
+Parece que el loopde mostrar y cambiar imagenes trabaja bien. Parece que tambien 
+la feature de pausar an play funciona tambien bien. Asi como la selccion de el 
+directorio ya sea cancelando o seleccionando un directorio tambien trabaja bien.
+
+Note: de lo unico que no estoy 100% seguro es si hay un poco de duplicidad de 
+codigoe en las funciones playShow() y la funcion playShowDriver(). Aunque creo 
+que si existiera esa duplicidad seria minima. Por lo cual creo que esa seccion 
+del codigo trabaja bien.
+
+RECOMENDACION: Talvez ir mostrnado los multi files que van a renombrar.
+En la parte de rename multi cuando se muestran los files similares hay que 
+sortearlos sorting para que se amejor
+
+Nota: el valor del index solo cambia en la funcion setIndex() y esta hasta ahora 
+solo se llama desde las funciones playShowDriver(), nextPicture() y backPicture()
+
+Como que a la createWarningDialog(self, strWarning, mMaster) function le falta 
+como ponerle el titulo mas especifico con el problema que se presenta ya que 
+puede ser de os o de empty dir or strings.
+
+11/1/2021 - 4:00 pm.
+Se hicieron varios cambios para tratar de solucionar el color rojo del ultimo 
+label el de mas abajo. Solo que se necisita usarlo. Si continua probablemente 
+el problema este en la cancelacion del proceso de multi files rename, en alguna 
+funcion de cancelacion. y la app sigue en renaming mode. Salir de este mode.
+
